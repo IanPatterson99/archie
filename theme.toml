@@ -15,7 +15,14 @@ min_version = "0.41"
   homepage = "https://github.com/ianpatterson99"
 
 # icon systems used
+# 2024-04-28 - realise that currently Hugo ignores these in themes. Only a limuited
+# set of paramters allowed in this file, not all of config
+# https://gohugo.io/hugo-modules/theme-components/
+# feather must be built into Hugo for it to work in the footer
+
 [module]
+  [[module.imports]]
+    path = 'github.com/hugo-mods/icons'
   [[module.imports]]
     path = 'github.com/hugomods/icons/vendors/bootstrap'
   [[module.imports]]
