@@ -6,8 +6,8 @@
     {{- end -}}
   </div>
   <div class="footer-info">
-    {{ dateFormat "2006" now }} {{ with .Site.Copyright }} {{ . }} | {{ end }} 
-      Forked from the Archie Theme | Built with <a href="https://gohugo.io">Hugo</a>
+    (C) {{ dateFormat "2006" now }} {{ with .Site.Copyright }} {{ . }} | {{ end }} 
+      | Based on Archie Theme | Built with <a href="https://gohugo.io">Hugo</a>
   </div>
 </footer>
 {{ if not .Site.IsServer }}
