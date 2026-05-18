@@ -1,9 +1,0 @@
-{{ define "main" }}
-<main>
-  <p>dateFormat Jan2: "{{ dateFormat "Jan 2, 2006" .Date }}"</p>
-  <p>.Date.Format Jan2: "{{ .Date.Format "Jan 2, 2006" }}"</p>
-  <p>time.Format Jan2: "{{ time.Format "Jan 2, 2006" .Date }}"</p>
-  <p>Raw date: "{{ .Date }}"</p>
-  <p>Month: "{{ .Date.Month }}"</p>
-</main>
-{{ end }}
